@@ -1,18 +1,47 @@
 body {
-      background-color: rgb(187, 40, 40);
+    background-color: rgb(169, 169, 169);
+    max-width: 60em;
+    border: 1px solid blue;
+    margin: 1em auto;
+    padding: 1em;
+
 }
 
 h1 { 
-    text-align:center;
-    font-family:arial;
+  text-align:center;
+  font-family:arial;
 }
 
 h2 {
-    font-family:courier;
+  font-family:courier;
 }
 
 p {
-    font-family:courier New;
-    color: white;
+  font-family:courier New;
+  color: white;
 
+}
+
+.lag {
+     margin-left: 3em;
+}
+
+.elvis {
+       Color: red;
+}
+
+a:link {
+       color: rgb(20, 74, 124)
+}
+
+a:visited {
+          color: rgb(20, 74, 124);
+}
+
+a:hover {
+        color: red;
+}
+
+a:active {
+         color: yellow;
 }
