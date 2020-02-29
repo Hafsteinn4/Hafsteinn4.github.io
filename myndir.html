@@ -2,11 +2,12 @@
 <html>
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<!-- "viewport" þvingar farsíma vafra til að birta gögn 1:1 og þá virka viðmið (breakpoints) í stílsíðum -->
 	<meta charset="utf-8">
+	<meta author="Guðmundur">
 	<title>Verkefni 4</title>
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
 	<link rel="stylesheet" type="text/css" href="styles.css">
-</head> 
+</head>
 <body> 
     <nav class="topnav">
         <ul class="topmenu">
@@ -14,23 +15,31 @@
 			<li><a href="myndir.html">Myndnotkun</a></li>
 			<li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Realizing_common_layouts_using_CSS_Grid_Layout/">RWD Grid</a></li>
 			<li><a href="https://scrimba.com/g/gR8PTE">CSS grid</a></li>
-		</ul>
+        </ul>
     </nav>
 	<header class="header">
-		<h1>Sveigjanleg vefhönnun - <i>Responsive Web Design</i></h1>
+		<h1>Sveigjanleg hönnun - <i>Myndanotkun</i></h1>
+		<img src="img/rose-960.jpg" alt="Roses">
 	</header>
-	<main class="main"> 
+	<main class="main">
 		<article class="midja">
-			<h2>Æfingaverkefni</h2>
-			<p>Nemendur eiga kost á því að leysa þetta æfingaverkefni með viðmiðum (breakpoints) og CSS grindakerfinu. Verkefnið gefur góða mynd af því hvernig hægt er að stýra skipulagi vefsíðu miðað við mismunandi skjástærðir sem vefurinn birtist í. CSS grid hefur verið í þróun undanfarin ár og nú eru framleiðendur helstu vafra internetsins búnir að innleiða þessa lausn í nýjustu vafrana sjá: <a href="https://caniuse.com/"> Can I use </a> nema ennþá þarf forskeyti (<em>e. prefix</em>) á 10 IE vafrann.
+			<h2>Aðaldálkur</h2>
+			<p>Responsive Web Design makes your web page look good on all devices (desktops, tablets, and phones). Responsive Web Design is about using CSS and HTML to resize, hide, shrink, enlarge, or move the content to make it look good on any screen. </p>
+			<section class="myndabox">
+		      	<figure>
+		      		<img src="img/mynd-1.jpg" alt="myndatexti">
+		      		<!--figcaption>myndatexti í figcaption virkar eins og alt eða title eigindið</figcaption-->
+		      	</figure>
+		    	<figure><img src="img/mynd-2.jpg"></figure>
+		      	<figure><img src="img/mynd-3.jpg"></figure>
+		      	<figure><img src="img/mynd-4.jpg"></figure>
+		    </section>
+			<p><a href="https://www.w3schools.com/cssref/pr_class_display.asp">CSS display Property</a> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum euismod sodales lacus eu tempor. Maecenas eget felis vitae massa pharetra mattis non pellentesque dolor. Suspendisse potenti. Donec lorem risus, hendrerit id est id, efficitur elementum metus. Quisque hendrerit neque non ante interdum euismod. Proin ut nulla pretium, tempor sem at, gravida nisl. Suspendisse potenti. Donec lorem risus, hendrerit id est id, efficitur elementum metus. Quisque hendrerit neque non ante interdum euismod. Proin ut nulla pretium, tempor sem at, gravida nisl.
 			</p>
-			<h4> Verkefni 4 fellst í því að gera vefsíðuna  sveigjanlega (Responsive) <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Realizing_common_layouts_using_CSS_Grid_Layout"> frá farsíma skipulagi yfir í tölvuskjái (Mobile-up) </a>.
-			</h4>
-		</article>
 		</article>
 		<aside class="vinstri">
 			<h3>Vinstri dálkur</h3>
-			<p><a href="https://www.w3schools.com/html/html_responsive.asp"> What is Responsive Web Design? </a>  Nullam in velit faucibus, sagittis ligula in, tincidunt erat. Ut turpis justo, suscipit vitae commodo ut, luctus non quam.
+			<p>What is Responsive Web Design?  Nullam in velit faucibus, sagittis ligula in, tincidunt erat. Ut turpis justo, suscipit vitae commodo ut, luctus non quam.
 			</p>
 			<p>Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
 		</aside>
