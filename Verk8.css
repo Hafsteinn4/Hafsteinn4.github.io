@@ -18,7 +18,7 @@ body {
     "main"
     "footer";
     text-align: center;
-    background-image: url(background.png);
+    background-image: url(subBg.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
